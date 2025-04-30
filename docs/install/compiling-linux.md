@@ -75,7 +75,7 @@ The source, build and install directories should all be **separate**. Do not pla
     - This download is expected to take some time.
     - It is recommended to start developing on the latest release rather than the bleeding edge, as linux is often only tested for new releases.
 
-2. <span>Copy `source/build.default.yaml` to `source/build.yaml` and open it. Here you can configure where tswow should place `build` and `install` directories.</span>
+2. <span>Copy `source/build.default.conf` to `source/build.conf` and open it. Here you can configure where tswow should place `build` and `install` directories.</span>
 
     - <span>**Do not set `install` to point at your normal TSWoW installation unless you know what you're doing, it will frequently flush out all your settings and modules!**</span>
 
